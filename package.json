@@ -12,8 +12,11 @@
     "url": "https://github.com/azu/video-prefetcher/issues"
   },
   "version": "1.0.0",
-  "description": "HTML5 video prefetch libray.",
-  "main": "index.js",
+  "description": "HTML5 video prefetch library.",
+  "main": "lib.video-prefetcher.js",
+  "lib": [
+    "lib"
+  ],
   "directories": {
     "test": "test"
   },
