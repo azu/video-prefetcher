@@ -14,7 +14,7 @@
   "version": "1.0.2",
   "description": "HTML5 video prefetch library.",
   "main": "lib/video-prefetcher.js",
-  "lib": [
+  "files": [
     "lib"
   ],
   "directories": {
