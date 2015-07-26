@@ -1,0 +1,42 @@
+{
+  "name": "video-prefetcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/video-prefetcher.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/video-prefetcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/video-prefetcher/issues"
+  },
+  "version": "1.0.0",
+  "description": "HTML5 video prefetch libray.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testem ci",
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "build:test": "browserify -d test/*.js -t [ babelify --plugins espower ] -o test-bundle.js",
+    "clean:test": "rm test-bundle.js"
+  },
+  "keywords": [
+    "video",
+    "prefetch",
+    "xhr",
+    "load"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.5",
+    "babel-plugin-espower": "^1.0.0",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0",
+    "testem": "^0.9.0"
+  }
+}

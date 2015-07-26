@@ -1,0 +1,11 @@
+{
+  "framework": "mocha",
+  "before_tests": "npm run build:test",
+  "on_exit": "npm run clean:test",
+  "src_files": [
+    "test/*-test.js"
+  ],
+  "serve_files": [
+    "test-bundle.js"
+  ]
+}
