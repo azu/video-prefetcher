@@ -13,7 +13,7 @@
   },
   "version": "1.0.1",
   "description": "HTML5 video prefetch library.",
-  "main": "lib.video-prefetcher.js",
+  "main": "lib/video-prefetcher.js",
   "lib": [
     "lib"
   ],
